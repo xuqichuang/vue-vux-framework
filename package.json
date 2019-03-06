@@ -1,9 +1,9 @@
 {
-  "name": "flight",
-  "version": "1.0.0",
-  "description": "臻旅机票",
-  "author": "徐其闯 <qichuan.xu@ly.com>",
-  "private": true,
+  "name": "vue-vux-framework",
+  "version": "1.0.1",
+  "description": "vue + vux 架构搭建，开箱即用",
+  "author": "徐其闯 <xqc1319681561@163.com>",
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
