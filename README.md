@@ -14,7 +14,7 @@ npm install 安装项目依赖包
 
 ```
 const proxyTable = {
-  target: 'https://m.t.ly.com/',
+  target: 'https://baidu.com/',
   changeOrigin: true,
   headers: {
 

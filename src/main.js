@@ -5,7 +5,6 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 import store from "./store"
-import Home from '@/views/HelloWorld'
 
 FastClick.attach(document.body)
 
@@ -23,7 +22,10 @@ Vue.use(http);
 import components from './components'
 Vue.use(components);
 Vue.use(VueRouter)
+// 全局样式入口
+import '@/common/less/index.less'
 
+const Home = () => import('@/views/HelloWorld').then(m => m.default)
 const routes = [{
   path: '/',
   component: Home

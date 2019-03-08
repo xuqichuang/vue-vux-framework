@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+    font-family: "Hiragino Sans GB W3", "microsoft yahei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+fieldset,
+img {
+    border: 0;
+    object-fit: cover;
+}
+
+del {
+    text-decoration: line-through
+}
+em,
+i,
+b {
+    font-style: normal;
+}
+
+input,
+select,
+textarea {
+    font-size: 100%
+}
+
+
+/* 重置文本格式元素 */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+th {
+    text-align: inherit
+}
+
+/* 重置表单元素 */
+
+legend {
+    color: #000;
+}
+
+
+/* for ie6 */
+
+button,
+textarea {
+    font-size: 100%;
+    border: 0;
+}
+
+
+/* 清除浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/* 文字选中效果 */
+
+::selection {
+    background-color: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/* 浏览器升级 */
+
+.browser-up {
+    padding: 1rem;
+    background: #ccc;
+    text-align: center;
+}
+
+
+/* 移动设备 */
+
+html, body {
+    -webkit-text-size-adjust: none; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+}
+
+h1,h2,h3,h4,h5,h6,b{
+  font-weight: normal;
+}
+
+input,input:focus,input:active{
+    user-select: text;
+    -webkit-user-select:text;
+    zoom:1;
+    font-size: 14px;
+    border:0;
+    outline: none;
+}
+
+* {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}

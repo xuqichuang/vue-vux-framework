@@ -1,0 +1,31 @@
+.main_title{
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+.my-popup-dialog{
+  border-radius: 8px 8px 0 0 !important;
+}
+.my-popup-header{
+  background: #fff !important;
+  height:50px !important;
+  line-height: 50px !important;
+}
+.new-popup-style .vux-popup-header-right{
+  font-size: 25px;
+  color:#999;
+}
+
+.mfield .weui-cells{
+  margin-top: 0;
+}
+/* 轮播图样式重置 */
+.swiper-pagination-bullets{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom:5px !important;
+}
+.swiper-pagination-bullet-active{
+  background: #fff !important;
+}
+
